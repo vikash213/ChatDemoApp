@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import MessageKit
 
-class ViewController: UIViewController {
+class ViewController: MessagesViewController {
 
+    var messages: [Message] = []
+    var member: Member!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

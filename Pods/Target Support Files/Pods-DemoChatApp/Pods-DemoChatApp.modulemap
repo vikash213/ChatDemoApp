@@ -1,0 +1,6 @@
+framework module Pods_DemoChatApp {
+  umbrella header "Pods-DemoChatApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
