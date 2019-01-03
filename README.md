@@ -3,5 +3,6 @@ This is about implementation of chat. The first one is Scaledrone, which simplif
 
 ## Screenshots
 
-<img width="323" alt="screenshot 2019-01-03 at 1 18 51 pm" src="https://user-images.githubusercontent.com/30712300/50627607-4031f580-0f5a-11e9-95be-0844d1b25b67.png">
-<img width="317" alt="screenshot 2019-01-03 at 1 19 01 pm" src="https://user-images.githubusercontent.com/30712300/50627608-40ca8c00-0f5a-11e9-8467-7eeaa869f5ff.png">
+
+![simulator screen shot - iphone 7 - 2019-01-03 at 13 48 33](https://user-images.githubusercontent.com/30712300/50628494-56da4b80-0f5e-11e9-8c3d-2b5934b2f4a4.png)
+![simulator screen shot - iphone x - 2019-01-03 at 13 48 37](https://user-images.githubusercontent.com/30712300/50628495-56da4b80-0f5e-11e9-9ac3-92c436f9803b.png)
