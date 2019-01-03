@@ -18,7 +18,7 @@ class ViewController: MessagesViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        member = Member(name: "bluemoon", color: .blue)
+        member = Member(name: .randomName, color: .randomColor)
         messagesCollectionView.messagesDataSource = self
         messagesCollectionView.messagesLayoutDelegate = self
         messageInputBar.delegate = self
