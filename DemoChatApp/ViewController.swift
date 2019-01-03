@@ -19,7 +19,7 @@ class ViewController: MessagesViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        member = Member(name: .randomName, color: .randomColor)
+        member = Member(name: .randomName, color: .randomColor, image: .randomImage)
         messagesCollectionView.messagesDataSource = self
         messagesCollectionView.messagesLayoutDelegate = self
         messageInputBar.delegate = self
@@ -105,8 +105,8 @@ extension ViewController: MessagesDisplayDelegate  {
         in messagesCollectionView: MessagesCollectionView) {
         
         let message = messages[indexPath.section]
-        let color = message.member.color
-        avatarView.backgroundColor = color
+        let image = message.member.image
+        avatarView.image = UIImage(named: image)
     }
 }
 

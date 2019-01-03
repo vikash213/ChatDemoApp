@@ -12,6 +12,7 @@ import MessageKit
 struct Member {
     let name: String
     let color: UIColor
+    let image: String
 }
 
 struct Message {
@@ -24,7 +25,8 @@ extension Member {
     var toJSON: Any {
         return [
             "name": name,
-            "color": color.hexString
+            "color": color.hexString,
+            "image": image
         ]
     }
     
@@ -32,7 +34,8 @@ extension Member {
         guard
             let data = json as? [String: Any],
             let name = data["name"] as? String,
-            let hexColor = data["color"] as? String
+            let hexColor = data["color"] as? String,
+            let image = data["image"] as? String
             else {
                 print("Couldn't parse Member")
                 return nil
@@ -40,6 +43,7 @@ extension Member {
         
         self.name = name
         self.color = UIColor(hex: hexColor)
+        self.image = image
     }
 }
 

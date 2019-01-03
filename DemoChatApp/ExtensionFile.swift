@@ -18,6 +18,13 @@ extension String {
     }
 }
 
+extension String {
+    
+    static var randomImage: String {
+        let images = ["pic1", "pic2", "pic3", "pic4"]
+        return images.randomElement()!
+    }
+}
 
 extension UIColor {
     static var randomColor: UIColor {
