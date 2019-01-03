@@ -18,7 +18,7 @@ class ChatService {
     init(member: Member, onRecievedMessage: @escaping (Message)-> Void) {
         self.messageCallback = onRecievedMessage
         self.scaledrone = Scaledrone(
-            channelID: "KeWoOfAG2rIZuWxI",
+            channelID: "KeWoOfAG2rIZuWxI", // Scaledrone channel id through their website. It will differ by yours
             data: member.toJSON)
         scaledrone.delegate = self
     }
