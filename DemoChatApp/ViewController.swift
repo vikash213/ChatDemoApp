@@ -12,9 +12,12 @@ import MessageInputBar
 
 class ViewController: MessagesViewController {
 
+    /// <#Description#>
     var messages: [Message] = []
     var member: Member!
     var chatService: ChatService!
+    
+    public private(set) var demoVar: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +36,7 @@ class ViewController: MessagesViewController {
         })
         
         chatService.connect()
+        self.demoVar = 7
         
     }
 
@@ -47,6 +51,7 @@ class ViewController: MessagesViewController {
 //    MessageInputBarDelegate which handles sending and typing new messages.
 
 extension ViewController: MessagesDataSource {
+    
     func numberOfSections(
         in messagesCollectionView: MessagesCollectionView) -> Int {
         return messages.count

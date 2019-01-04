@@ -21,6 +21,7 @@ class ChatService {
             channelID: "KeWoOfAG2rIZuWxI", // Scaledrone channel id through their website. It will differ by yours
             data: member.toJSON)
         scaledrone.delegate = self
+ 
     }
     
     func connect() {
