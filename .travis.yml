@@ -2,4 +2,4 @@ language: php
 rvm:
 - 2.2
 - jruby
-
+os: osx
