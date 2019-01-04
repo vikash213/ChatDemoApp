@@ -15,7 +15,7 @@
 		0C339E4721DA47D300FABEA2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C339E4621DA47D300FABEA2 /* Message.swift */; };
 		0C58B7C821DDEC6800B349EC /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C58B7C721DDEC6800B349EC /* ExtensionFile.swift */; };
 		0C58B7CA21DDF23500B349EC /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C58B7C921DDF23500B349EC /* ChatService.swift */; };
-		0C65688A21DF4A0600D20A65 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0C65688921DF4A0600D20A65 /* .travis.yml */; };
+		0C65688E21DF4B7700D20A65 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0C65688D21DF4B7700D20A65 /* .travis.yml */; };
 		0CBDDB3E21DB7AC40040A5B9 /* ClassA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDDB3D21DB7AC40040A5B9 /* ClassA.swift */; };
 		0CBDDB4021DB7AD40040A5B9 /* ClassB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDDB3F21DB7AD40040A5B9 /* ClassB.swift */; };
 		C27066489D0894E036891C0A /* Pods_DemoChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994441A3856DE24BB9929524 /* Pods_DemoChatApp.framework */; };
@@ -32,7 +32,7 @@
 		0C339E4621DA47D300FABEA2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		0C58B7C721DDEC6800B349EC /* ExtensionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
 		0C58B7C921DDF23500B349EC /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
-		0C65688921DF4A0600D20A65 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		0C65688D21DF4B7700D20A65 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		0CBDDB3D21DB7AC40040A5B9 /* ClassA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassA.swift; sourceTree = "<group>"; };
 		0CBDDB3F21DB7AD40040A5B9 /* ClassB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassB.swift; sourceTree = "<group>"; };
 		994441A3856DE24BB9929524 /* Pods_DemoChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +55,7 @@
 		0C339E2821DA464900FABEA2 = {
 			isa = PBXGroup;
 			children = (
+				0C65688D21DF4B7700D20A65 /* .travis.yml */,
 				0C339E3321DA464900FABEA2 /* DemoChatApp */,
 				0C339E3221DA464900FABEA2 /* Products */,
 				2A043A2D03D77C265DFBCCFD /* Pods */,
@@ -84,7 +85,6 @@
 				0CBDDB3F21DB7AD40040A5B9 /* ClassB.swift */,
 				0C58B7C721DDEC6800B349EC /* ExtensionFile.swift */,
 				0C58B7C921DDF23500B349EC /* ChatService.swift */,
-				0C65688921DF4A0600D20A65 /* .travis.yml */,
 			);
 			path = DemoChatApp;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			files = (
 				0C339E3F21DA464A00FABEA2 /* LaunchScreen.storyboard in Resources */,
 				0C339E3C21DA464A00FABEA2 /* Assets.xcassets in Resources */,
-				0C65688A21DF4A0600D20A65 /* .travis.yml in Resources */,
+				0C65688E21DF4B7700D20A65 /* .travis.yml in Resources */,
 				0C339E3A21DA464900FABEA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
